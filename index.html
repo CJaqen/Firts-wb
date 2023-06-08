@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Página Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenido a Mi Página Web</h1>
+    <p>¡Hola! Esta es una página web de ejemplo.</p>
+    <a href="#" class="button">Haz clic aquí</a> para continuar.
+  </div>
+
+  <script>
+    var button = document.querySelector('.button');
+    button.addEventListener('click', function() {
+      alert('¡Has hecho clic en el botón!');
+    });
+  </script>
+</body>
+</html>
